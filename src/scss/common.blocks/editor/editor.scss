@@ -1,0 +1,24 @@
+#editor__start-btn {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.editor {
+  // &__selector-container {
+  //   height: 2em;
+  // }
+
+  &__textfield {
+    padding: 1em;
+    text-align: left;
+    min-height: 4em;
+    // border-radius: 1em;
+    border: 1px solid $COLOR_PRIMARY;
+    background-color: white;
+    width: 100%;
+
+    &_indent {
+      margin: 1em 0;
+    }
+  }
+}

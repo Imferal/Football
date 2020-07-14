@@ -1,0 +1,38 @@
+.task {
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    padding: 0.4em;
+    border: 1px solid gray;
+    border-radius: 0.3em;
+
+    &_open {
+      background-color: greenyellow;
+    }
+
+    &_closed {
+      background-color: rgb(255, 130, 130);
+      text-decoration: line-through;
+    }
+  }
+
+
+
+  &__add {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    &_input_indent {
+      flex-grow: 1;
+    }
+
+    &_button_indent {
+      flex-grow: 0;
+      margin-left: 0.4em;
+    }
+  }
+}

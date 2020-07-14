@@ -1,0 +1,32 @@
+.selector {
+    &__select {
+        background-color: $COLOR_PRIMARY;
+        width: 100%;
+        height: 2em;
+        padding: 0 0.4em;
+        color: white;
+        border: 1px solid white;
+
+        // &_disabled {
+        //   color: rgba(0, 0, 0, 0.38);
+        //   background-color: rgba(0, 0, 0, 0.12);
+        // }
+    }
+
+    &__selector {
+        background-color: $COLOR_PRIMARY;
+        width: 100%;
+        height: 2em;
+        padding: 0 0.4em;
+        color: white;
+        border: 1px solid white;
+        &__selector-container {
+            height: 2em;
+        }
+    }
+    &__selector-description {
+        text-transform: uppercase;
+        padding: 1em 0;
+        border-top: 1px solid black;
+    }
+}

@@ -1,0 +1,40 @@
+.container {
+  margin: 1em auto 0;
+  position: relative;
+  // width: calc(100vw - 2rem);
+  padding: 1rem;
+
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.columns {
+  align-items: stretch;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: calc(480px - 2rem);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    width: calc(640px - 2rem);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    width: calc(960px - 2rem);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: calc(1280px - 2rem);
+  }
+}

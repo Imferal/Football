@@ -1,0 +1,47 @@
+.soccer {
+  position: relative;
+  margin: 1em auto;
+  height: 100%;
+  width: 100%;
+
+  &__comments {
+    // font-size: 1em;
+    color: $COLOR_S_DARK;
+  }
+
+  &__field {
+    width: 100%;
+    border-radius: 10px;
+    // max-height: 70vh;
+  }
+
+  &__ball {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 5vh;
+    height: auto;
+    // max-height: 5vh;
+  }
+
+  &__goal {
+    position: absolute;
+    top: 49.7%;
+    transform: translate(0, -50%);
+    width: 2.3%;
+    height: 13.5%;
+    background-color: rgba(200, 0, 0, 0.7);
+
+    &_left {
+      left: 2.8%;
+      display: none;
+    }
+
+    &_right {
+      right: 2.8%;
+      display: none;
+    }
+  }
+}

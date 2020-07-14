@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+
+  font-family: "Forum", cursive;
+
+  background-color: #ecf0f1;
+  color: #34495e;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 12px;
+  }
+}
